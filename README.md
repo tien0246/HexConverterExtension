@@ -1,8 +1,6 @@
 
 ## Usage/Examples
 
-• Download and install extension.
-
 • Download and install the extension.
 
 • Highlight the hexadecimal to be converted.
