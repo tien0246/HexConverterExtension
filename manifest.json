@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Hex Converter",
+  "version": "1.0",
+  "description": "Convert hex to ARM",
+  "permissions": ["tabs", "contextMenus", "notifications"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "background": {
+    "page": "popup.html",
+	"service_worker": "popup.js"
+  },
+  "host_permissions": ["*://*/*"]
+}
